@@ -32,7 +32,6 @@ jobs:
         cmd: install # npm install/ yarn install
     
 
-    
     - name: Deploying on surge
       run: surge ./ windows11-musa.surge.sh --token ${{secrets.surge_token}}
 
